@@ -23,8 +23,8 @@ urlpatterns = [
     path('',views.principal,name="Principal"),
     path('contacto/',views.contacto,name="Contacto"),
     path('curso/',views.curso,name="Curso"),
-
     path('encabezado/', views.mi_pagina, name='Encabezado'),
-
-
 ]
+
+
+
